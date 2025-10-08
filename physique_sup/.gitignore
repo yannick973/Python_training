@@ -1,0 +1,18 @@
+# Fichiers et dossiers Python à ignorer
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Dossiers virtuels
+.env
+.venv/
+venv/
+
+# Fichiers temporaires
+*.log
+.DS_Store
+
+# Dossiers d’IDE
+.vscode/
+.idea/
