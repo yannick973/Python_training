@@ -19,5 +19,3 @@ def mesure_Kepler(x,y,alpha,n):
         mesures.append(mesure_luminosite(x,y,alpha,n))
     return np.mean(mesures), np.std(mesures,ddof = 1)
 
-print(mesure_Kepler(2,2,0.1,1000))
-
