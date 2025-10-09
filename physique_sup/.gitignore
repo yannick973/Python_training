@@ -1,3 +1,4 @@
+
 # Fichiers et dossiers Python à ignorer
 __pycache__/
 *.pyc
@@ -16,3 +17,6 @@ venv/
 # Dossiers d’IDE
 .vscode/
 .idea/
+
+
+photos_livre/
