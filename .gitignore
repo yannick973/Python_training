@@ -1,0 +1,40 @@
+# ----------------------------
+# Fichiers Python compilés
+# ----------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# ----------------------------
+# Dossiers virtuels
+# ----------------------------
+.env
+.venv/
+venv/
+
+# ----------------------------
+# Fichiers temporaires / logs
+# ----------------------------
+*.log
+.DS_Store
+*.tmp
+
+# ----------------------------
+# Dossiers IDE
+# ----------------------------
+.vscode/
+.idea/
+
+# ----------------------------
+# Dossiers photos ou autres contenus lourds à ignorer
+# ----------------------------
+photo_livre/
+
+# ----------------------------
+# Optionnel : caches, sorties ou données temporaires
+# ----------------------------
+*.sqlite3
+*.db
+*.bak
+*.swp
