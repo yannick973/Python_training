@@ -19,5 +19,24 @@ def mesure_Kepler(x,y,alpha,n):
         mesures.append(mesure_luminosite(x,y,alpha,n))
     return np.mean(mesures), np.std(mesures,ddof = 1)
 
-print(mesure_Kepler(2,2,0.1,1000))
+#print(mesure_Kepler(2,2,0.1,1000))
+#période orbitale T(s)
+T = 4.9*24*3600
+#décalage temporel t0 (s)
+t0=495.8*24*3600
+
+MSol=1.99e30
+RSol=6.96e8
+M=1.36*MSol
+R= 2.02*RSol
+G=6.67e-11
+ua=1.50e11
+a = 0.063*ua
+
+def xyz(t):
+    xP=a/R*np.sin(2*np.pi /T*(t-t0))
+    yP=0
+    zP=a/R*np.cos(2*np.pi /T*(t-t0))
+    return xP,yP,zP
+
 
